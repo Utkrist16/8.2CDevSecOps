@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         PATH = "/opt/homebrew/bin:${env.PATH}"
-        NOTIFY_EMAIL = ‘utkrist16@gmail.com'
+        NOTIFY_EMAIL = 'utkrist16@gmail.com'
     }
 
     stages {
