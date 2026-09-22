@@ -23,7 +23,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'npm test | tee test-log.txt || true'
+                sh 'npm test 2>&1 | tee test-log.txt || true'
             }
             post {
                 always {
